@@ -38,7 +38,7 @@ namespace ForzaCore
                         var resultBuffer = receive.Result.Buffer;
                         if (!AdjustToBufferType(resultBuffer.Length))
                         {
-                            connection.Send("new-data", $"buffer not the correct length. length1 is {resultBuffer.Length}");
+                            connection.Send("new-data", $"buffer not the correct length. length11 is {resultBuffer.Length}");
                             return;
                         }
                         isRaceOn = resultBuffer.IsRaceOn();
