@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "jsx": "react",
-        "outDir": "./dist/",
+        "outDir": "./build/",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "commonjs",
@@ -9,12 +9,11 @@
         "esModuleInterop": true,
         "allowJs": true
     },
-    "include": ["src/*"],
+    "include": ["*"],
     "exclude": [
         "node_modules/",
         "./node_modules",
         "./node_modules/*",
-        "ForzaCore/",
         "dist/"
     ],
     "compileOnSave": false,

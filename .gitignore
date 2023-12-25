@@ -358,3 +358,5 @@ MigrationBackup/
 dist/
 
 release-builds/
+
+build
