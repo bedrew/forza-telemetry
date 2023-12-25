@@ -1,0 +1,125 @@
+body {
+  background-color: black !important;
+  line-height: 1 !important;
+}
+.tire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-width: 70px;
+  border: 2px solid rgba(255, 255, 255, 0.274);
+  border-radius: 15px;
+  margin: 10px;
+}
+.tire-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tire-wrap {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.caption-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caption >:last-child {
+  color: grey;
+  font-size: 12px;
+}
+.caption >:first-child {
+  color: rgb(197, 66, 66);
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.panel-block {
+    background-color: rgb(23, 23, 23);
+    height: 32.75%;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    overflow: auto;
+}
+.sterring-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.sterring {
+  display: flex;
+  position: relative;
+  min-width: 60%;
+  height: 100%;
+  justify-content: center;
+}
+.sterring >:last-child {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.map-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.map {
+  display: flex;
+}
+.column {
+  display: flex;
+  min-width: 33.3%;
+  flex-direction: column;
+}
+.main-wrap {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.acc-block {
+  display: flex;
+  justify-content: center;
+}
+.acc-circle > * {
+  position: absolute;
+}
+.rpm-line >:first-child {
+  background: rgb(197, 66, 66);
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+}
+.rpm-line {
+  background: rgb(23, 23, 23);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 100%;
+  width: 30px;
+}
+.tahometer-block {
+  display: flex;
+  height: 70vh;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 15px;
+  position: relative;
+}
+.tahometer-block > * {
+  margin-bottom: 10px;
+}
+.tahometer-block span:first-child {
+  color: grey;
+}
+.tahometer-block span:last-child {
+  color:rgb(197, 66, 66);
+}
+.tahometer-block > *:last-child {
+  position: absolute;
+  left: 40px;
+}
